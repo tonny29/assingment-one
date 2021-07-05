@@ -1,0 +1,86 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 40px;
+}
+.display{
+    display: flex;
+    margin-bottom: 100px;
+}
+.top-banner{
+    background-image: url(image/top.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.width{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.span{
+    color: crimson;
+}
+p{
+    text-align: justify;
+}
+.width img{
+    width: 80%;
+}
+.button{
+    background-image: linear-gradient(blue,rgb(218, 19, 118));
+    padding: 10px 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.mid-banner{
+    background-image: url(image/middle.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.fish{
+    width: 100%;
+    border-radius: 20px;
+  
+}
+.food{
+    width: 100%;
+    border-radius: 20px;
+}
+.border{
+    box-shadow: 40px 20px 60px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width: 30%;
+    border-radius: 20px;
+}
+#fish{
+    border-left: 3px solid;
+    border-image: linear-gradient(blue,black);
+    border-image-slice: 2;
+}
+#nuts{
+    border-left: 3px solid;
+    border-image: linear-gradient(red,yellow);
+    border-image-slice: 2;
+}
+#olive-oil{
+    border-left: 3px solid;
+    border-image: linear-gradient(pink,purple);
+    border-image-slice: 3;
+}
+footer {
+    border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width: 30%;
+}
