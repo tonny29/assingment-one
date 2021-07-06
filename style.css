@@ -39,12 +39,16 @@ p{
     font-weight: 900;
     border-radius: 40px;
     text-decoration: none;
-    
 }
 .mid-banner{
     background-image: url(image/middle.jpg);
     background-repeat: no-repeat;
     border-radius: 20px;
+}
+.button-2nd{
+    margin-left: 70%;
+    color: rgb(155, 9, 9);
+    font-weight: 700;
 }
 .fish{
     width: 100%;
@@ -90,18 +94,7 @@ p{
 footer p{
     text-align: center;
 }
-.button-2nd{
-    margin-left: 70%;
-    color: rgb(155, 9, 9);
-    font-weight: 700;
-}
-.button-3rd{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(155, 9, 9);
-    margin-top: 50px;
-    font-weight: 600;
-}
+
 .border-2nd{
     box-shadow: 40px 20px 60px grey;
     margin-left: 7%;
@@ -110,5 +103,34 @@ footer p{
     width: 80%;
     border-radius: 20px;
     border: 3px solid goldenrod;
+    background-color: rgb(197, 155, 176);
+}
+
+.button-3rd{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.top img{
+    width: 330px;
+    height: 350px;
+    margin-left: 48%;
+    border-radius: 50%;
+    padding: 20px;
+    border: 5px dotted skyblue;
+    
+    
+    
+}
+.left{
+    margin-left: 5%;
+    width: 30%;
+}
+.right{
+    margin-left: 25%;
+    margin-right: 5%;
+    width: 30%;
 }
 
