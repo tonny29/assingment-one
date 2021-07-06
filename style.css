@@ -1,6 +1,6 @@
 body{
     font-family: 'Playfair Display', serif;
-    margin: 40px;
+    margin: 0px;
 }
 .display{
     display: flex;
@@ -33,10 +33,10 @@ p{
     width: 80%;
 }
 .button{
-    background-image: linear-gradient(blue,rgb(218, 19, 118));
+    background-image: linear-gradient(skyblue,orangered);
     padding:10px 30px;
-    color: white;
-    font-weight: 900;
+    color: black;
+    font-weight: bolder;
     border-radius: 40px;
     text-decoration: none;
 }
@@ -82,19 +82,6 @@ p{
     border-image: linear-gradient(pink,purple);
     border-image-slice: 3;
 }
-.footer{
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-footer p{
-    text-align: center;
-}
-
 .border-2nd{
     box-shadow: 40px 20px 60px grey;
     margin-left: 7%;
@@ -109,9 +96,13 @@ footer p{
 .button-3rd{
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(25, 10, 235);
     margin-top: 50px;
     font-weight: 600;
+    border: 2px solid black;
+    width: 60px;
+    height: 85px;
+    border-radius: 5px;
 }
 .top img{
     width: 330px;
@@ -120,9 +111,6 @@ footer p{
     border-radius: 50%;
     padding: 20px;
     border: 5px dotted skyblue;
-    
-    
-    
 }
 .left{
     margin-left: 5%;
@@ -132,5 +120,20 @@ footer p{
     margin-left: 25%;
     margin-right: 5%;
     width: 30%;
+}
+.margin{
+    margin-bottom: 100px;
+    display: flex;
+}
+.footer{
+    background-color: grey;
+    color: black;
+    width: 100%;
+    border-top: 3px solid skyblue;
+    border-bottom:3px solid skyblue;
+   
+}
+footer p{
+    text-align: center;
 }
 
