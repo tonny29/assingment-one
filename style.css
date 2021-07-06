@@ -1,10 +1,10 @@
 body{
     font-family: 'Playfair Display', serif;
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
 }
 .display{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .top-banner{
     background-image: url(image/top.jpg);
@@ -111,6 +111,7 @@ p{
     border-radius: 50%;
     padding: 20px;
     border: 5px dotted skyblue;
+    box-shadow: 10px 10px 40px 20px rgb(236, 202, 219);
 }
 .left{
     margin-left: 5%;
